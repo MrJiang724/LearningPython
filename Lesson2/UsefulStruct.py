@@ -2,6 +2,10 @@
 list = ['one','two','three','four','five','six']
 list[2] = '2'  #index is start from zero
 print list
+#append & remove
+list.append('qqzezr')
+if 'one' in list:
+	list.remove('one')
 list.sort()
 print list
 	
@@ -27,3 +31,4 @@ setA.add('c')
 print setA
 print setA | setB
 print setA & setB
+input()
